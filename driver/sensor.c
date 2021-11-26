@@ -39,6 +39,7 @@ const resolution_info_t resolution[FRAMESIZE_INVALID] = {
     { 2560, 1600, ASPECT_RATIO_16X10 }, /* WQXGA  */
     { 1088, 1920, ASPECT_RATIO_9X16  }, /* Portrait FHD   */
     { 2560, 1920, ASPECT_RATIO_4X3   }, /* QSXGA  */
+    {  128,  64, ASPECT_RATIO_1X1   },
 };
 
 camera_sensor_info_t *esp_camera_sensor_get_info(sensor_id_t *id)
