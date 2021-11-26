@@ -113,7 +113,7 @@ static camera_config_t camera_config = {
 	.ledc_channel = LEDC_CHANNEL_0,
 	
 	.pixel_format = PIXFORMAT_GRAYSCALE,
-	.frame_size = FRAMESIZE_QQVGA2,
+	.frame_size = FRAMESIZE_CUSTOMIZE,
 	.jpeg_quality = 12,
 	.fb_count = 1,
 };
